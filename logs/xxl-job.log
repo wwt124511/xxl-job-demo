@@ -1,0 +1,31 @@
+2022-12-20 18:15:19,223 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [StartupInfoLogger.java : 55] Starting XxlJobDemoApplication using Java 1.8.0_202 on macdeMacBook-Pro.local with PID 17443 (/Users/wwt/MyGitHub/xxl-job-demo/target/classes started by wwt in /Users/wwt/MyGitHub/xxl-job-demo)
+2022-12-20 18:15:19,244 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [SpringApplication.java : 631] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 18:15:21,217 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8090 (http)
+2022-12-20 18:15:21,232 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-20 18:15:21,233 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-12-20 18:15:21,234 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-20 18:15:21,415 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-12-20 18:15:21,415 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 292] Root WebApplicationContext: initialization completed in 1550 ms
+2022-12-20 18:15:21,996 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8090"]
+2022-12-20 18:15:22,027 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-20 18:15:22,040 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [StartupInfoLogger.java : 61] Started XxlJobDemoApplication in 4.611 seconds (JVM running for 7.306)
+2022-12-20 18:17:14,272 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [StartupInfoLogger.java : 55] Starting XxlJobDemoApplication using Java 1.8.0_202 on macdeMacBook-Pro.local with PID 17510 (/Users/wwt/MyGitHub/xxl-job-demo/target/classes started by wwt in /Users/wwt/MyGitHub/xxl-job-demo)
+2022-12-20 18:17:14,278 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [SpringApplication.java : 631] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 18:17:16,288 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8090 (http)
+2022-12-20 18:17:16,299 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-20 18:17:16,300 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2022-12-20 18:17:16,300 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-20 18:17:16,479 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2022-12-20 18:17:16,480 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 292] Root WebApplicationContext: initialization completed in 1773 ms
+2022-12-20 18:17:16,612 INFO [main] c.wwt.xxljobdemo.config.XxlJobConfig [XxlJobConfig.java : 46] >>>>>>>>>>> xxl-job config init.
+2022-12-20 18:17:17,154 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8090"]
+2022-12-20 18:17:17,193 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-20 18:17:17,209 INFO [main] c.w.xxljobdemo.XxlJobDemoApplication [StartupInfoLogger.java : 61] Started XxlJobDemoApplication in 4.067 seconds (JVM running for 6.215)
+2022-12-20 18:17:17,382 INFO [Thread-14] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 86] >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9990
+2022-12-20 18:18:56,375 INFO [Thread-14] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 96] >>>>>>>>>>> xxl-job remoting server stop.
+2022-12-20 18:18:56,380 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 87] >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-demo', registryValue='http://10.200.0.197:9990/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2022-12-20 18:18:56,380 INFO [xxl-job, executor ExecutorRegistryThread] c.x.j.c.t.ExecutorRegistryThread [ExecutorRegistryThread.java : 105] >>>>>>>>>>> xxl-job, executor registry thread destory.
+2022-12-20 18:18:56,381 INFO [SpringApplicationShutdownHook] com.xxl.job.core.server.EmbedServer [EmbedServer.java : 125] >>>>>>>>>>> xxl-job remoting server destroy success.
+2022-12-20 18:18:56,381 INFO [xxl-job, executor JobLogFileCleanThread] c.x.j.c.thread.JobLogFileCleanThread [JobLogFileCleanThread.java : 99] >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2022-12-20 18:18:56,382 INFO [xxl-job, executor TriggerCallbackThread] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 98] >>>>>>>>>>> xxl-job, executor callback thread destory.
+2022-12-20 18:18:56,382 INFO [Thread-13] c.x.j.c.thread.TriggerCallbackThread [TriggerCallbackThread.java : 128] >>>>>>>>>>> xxl-job, executor retry callback thread destory.
